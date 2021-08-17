@@ -11,11 +11,11 @@ In this repository we present NaVA(Neural attention Variational Autoencoder) a n
 4. scikit-learn==0.24.1
 
 
-### Datasets already used for text representation 
+### Properties of the datasets used in the experiments. 
 
 |name | task | train set | test set | classes  | Supervised Learning Papers | Unsupervised Learning Papers|
 |----------	|------------------------------	|-----------:|----------:|:-----------:|----------------------:|:---------------------:|
-|[20NewsGroup](https://github.com/davidsbatista/Aspect-Based-Sentiment-Analysis/tree/master/datasets/CR)  | User review polarity | 5176 | small | 2 |
+|[20NewsGroup](https://github.com/davidsbatista/Aspect-Based-Sentiment-Analysis/tree/master/datasets/CR)  | User review polarity | 5176 | small | 2 |[[1]](#1) [[2]](#2) |
 |[IMDB](https://github.com/zeerakw/hatespeech)  | Hate speech detect| 23739 | large |3  |
 |[TREC6](https://www.cs.cornell.edu/people/pabo/movie-review-data/rt-polaritydata.tar.gz)| Sentece polarity | 18179| large |  2 |
 |[Subjectivity](https://github.com/hallr/DAT_SF_19/blob/master/data/yelp_labelled.txt)  | Movie and TV Review | 1000 | small|  2|
@@ -29,7 +29,7 @@ In this repository we present NaVA(Neural attention Variational Autoencoder) a n
 
 
 ### Input Data
-DiVe receive as input any sequence of strings(sentences), each string of trainning corpus will be map to a vector.
+NaVA receive as input any sequence of strings(sentences), each string of trainning corpus will be map to a vector.
 Each file should have one sentence per line as follows (space delimited): \
 `...`\
 `weaknesses minor feel layout remote control show complete file names mp3s`\
