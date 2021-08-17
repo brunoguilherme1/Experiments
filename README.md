@@ -103,12 +103,18 @@ the partition function, which has been the main limitation of embedding techniqu
 
 ### Reference
 
-Please make sure to cite the papers when its use for represents word similarity by word embedding.
+<a id="1">[1]</a> 
+Dijkstra, E. W. (1968). 
+Go to statement considered harmful. 
+Communications of the ACM, 11(3), 147-148.
+
+
+Please make sure to cite the papers when its use for represents document for clustering or classification.
 
 Please cite the following paper if you use this implementation:\
 `
-@InProceedings{?,`\
-  `author    = {removed for double blind review},`\
+@InProceedings{ Submitted to WSDM'22,`\
+  `author    = {Neural attention Variational Autoencoder for Text Clustering},`\
   `title     = {DiVe: Distance based Vectors Embedding technique for effective text classification},`\
   `booktitle = {WSDM'20},`\
-  `year      = {2020} }`
+  `year      = {2021} }`
