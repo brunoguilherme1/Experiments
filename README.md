@@ -5,15 +5,16 @@ authors are removed for double blind review
 In this repository we present NaVA(Neural attention Variational Autoencoder) a new framework for general text clustering. In this repository we compare our technique with various state-of-the-art baselines in NLP. All of our experiments were executed on Google Colab, a NaVA model could be trained within a few minutes on this platform, its implementation based on neural networks, is also suitable for parallelization via GPU/TPU.
 
 ### Requirements
-1. Python 2.7
-2. Numpy 1.65
-3. Pandas 0.24
+1. Python>=3.5
+2. tensorflow>=1.16
+3. numpy==1.19.5
+4. scikit-learn==0.24.1
 
 
 ### Datasets already used for text representation 
 
-|name | task | vocabulary | size | classes  |
-|----------	|------------------------------	|-----------:|----------:|:-----------:|
+|name | task | train set | test set | classes  | Supervised Learning | Unsupervised Learning |
+|----------	|------------------------------	|-----------:|----------:|:-----------:|----------------------:|:---------------------:|
 |[CR](https://github.com/davidsbatista/Aspect-Based-Sentiment-Analysis/tree/master/datasets/CR)  | User review polarity | 5176 | small | 2 |
 |[HSTW](https://github.com/zeerakw/hatespeech)  | Hate speech detect| 23739 | large |3  |
 |[PO](https://www.cs.cornell.edu/people/pabo/movie-review-data/rt-polaritydata.tar.gz)| Sentece polarity | 18179| large |  2 |
