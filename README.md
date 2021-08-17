@@ -50,7 +50,7 @@ wordsVectors.out will be the output, each word in vocabulary represents a line a
 `car 1.5 0.01 -0.2 -1.1 ...`\
 `...`
 
-###  Analysis of parameter α in similarity function f
+###  NaVa attention mechanism
 
 In our work, we demonstrate that α can easily change the model accuracy, as follows,
 
