@@ -2,7 +2,7 @@
 authors are removed for double blind review 
 ***
 
-In this repository we present NaVA(Neural attention Variational Autoencoder) a new framework for general text clustering. In this repository we compare our technique with various state-of-the-art baselines in NLP.
+In this repository we present NaVA(Neural attention Variational Autoencoder) a new framework for general text clustering. In this repository we compare our technique with various state-of-the-art baselines in NLP. All of our experiments were executed on Google Colab, a NaVA model could be trained within a few minutes on this platform, its implementation based on neural networks, is also suitable for parallelization via GPU/TPU.
 
 ### Requirements
 1. Python 2.7
