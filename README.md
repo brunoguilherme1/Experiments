@@ -114,7 +114,7 @@ Please make sure to cite the papers when its use for represents document for clu
 Please cite the following paper if you use this implementation:\
 `
 @InProceedings{ Submitted to WSDM'22,`\
-  `author    = {Neural attention Variational Autoencoder for Text Clustering},`\
-  `title     = {DiVe: Distance based Vectors Embedding technique for effective text classification},`\
-  `booktitle = {WSDM'20},`\
+  `author    = {authors are removed for double blind review},`\
+  `title     = {Neural attention Variational Autoencoder for Text Clustering},`\
+  `booktitle = {WSDM'21},`\
   `year      = {2021} }`
