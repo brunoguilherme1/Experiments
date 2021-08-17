@@ -36,9 +36,10 @@ Each file should have one sentence per line as follows (space delimited): \
 `normal size sorry ignorant way get back 1x quickly` \
 `many disney movies n play dvd player` \
 `...`
+![Figure 1 ](https://github.com/NaVaClustering/Experiments/blob/master/figs/Copy of MVAE-BM plate notation(12).pdf} "Title")
 
-### Training DiVe
-For training DiVe you need choose a model a type the follow command:\
+### Training NaVa
+For training NaVa you need specify his Hyperparameter as:\
 
 ` python DualPoint.py data.txt wordsVectors.out`\
 wordsVectors.out will be the output, each word in vocabulary represents a line and its coordenates in the embedding, as:
