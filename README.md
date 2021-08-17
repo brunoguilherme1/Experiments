@@ -13,7 +13,7 @@ In this repository we present NaVA(Neural attention Variational Autoencoder) a n
 
 ### Datasets already used for text representation 
 
-|name | task | train set | test set | classes  | Supervised Learning | Unsupervised Learning |
+|name | task | train set | test set | classes  | Supervised Learning Papers | Unsupervised Learning Papers|
 |----------	|------------------------------	|-----------:|----------:|:-----------:|----------------------:|:---------------------:|
 |[20NewsGroup](https://github.com/davidsbatista/Aspect-Based-Sentiment-Analysis/tree/master/datasets/CR)  | User review polarity | 5176 | small | 2 |
 |[IMDB](https://github.com/zeerakw/hatespeech)  | Hate speech detect| 23739 | large |3  |
@@ -109,11 +109,10 @@ Go to statement considered harmful.
 Communications of the ACM, 11(3), 147-148.
 
 
-Please make sure to cite the papers when its use for represents document for clustering or classification.
 
+Please make sure to cite the papers when its use for represents document for clustering or classification.
 Please cite the following paper if you use this implementation:\
-`
-@InProceedings{ Submitted to WSDM'22,`\
+`@InProceedings{ Submitted to WSDM'22,`\
   `author    = {authors are removed for double blind review},`\
   `title     = {Neural attention Variational Autoencoder for Text Clustering},`\
   `booktitle = {WSDM'21},`\
