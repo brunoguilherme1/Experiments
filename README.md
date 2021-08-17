@@ -2,7 +2,7 @@
 authors are removed for double blind review 
 ***
 
-In this repository we present DiVe (Distance-based Vector Embedding), a new word embedding technique based on a scalable Markovian statistical model to represent sequences of words. Our experiments demonstrate that DiVe is able to outperform existing, more complex, machine learning approaches, while preserving simplicity and scalability.
+In this repository we present NaVA(Neural attention Variational Autoencoder) a new framework for general text clustering. In this repository we compare our technique with various state-of-the-art baselines in NLP.
 
 ### Requirements
 1. Python 2.7
