@@ -36,7 +36,7 @@ Each file should have one sentence per line as follows (space delimited): \
 `normal size sorry ignorant way get back 1x quickly` \
 `many disney movies n play dvd player` \
 `...`
-![Figure 1 ](https://github.com/NaVaClustering/Experiments/blob/main/figs/Copy%20of%20MVAE-BM%20plate%20notation(11).pdf} "Title")
+![Figure 1 ](https://github.com/NaVaClustering/Experiments/blob/main/figs/a.png} "Title")
 
 ### Training NaVa
 For training NaVa you need specify his Hyperparameter as:\
