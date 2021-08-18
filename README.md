@@ -53,7 +53,7 @@ wordsVectors.out will be the output, each word in vocabulary represents a line a
 ###  NaVa attention mechanism
 
 
-![Figure 1 ](https://github.com/NaVaClustering/Experiments/blob/main/figs/Untitled%20presentation(1).jpg "Title")
+![Figure 1 ](https://github.com/NaVaClustering/Experiments/blob/main/figs/Untitled%20presentation(2).jpg "Title")
 In our work, we demonstrate that α can easily change the model accuracy, as follows,
 
 ![Figure 1 ](https://github.com/DiVeWord/DiVeWordEmbedding/blob/master/figs/go.png "Title")
