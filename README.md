@@ -42,12 +42,18 @@ Each file should have one sentence per line as follows (space delimited): \
 
 After, for training NaVa you need specify his Hyperparameter and then you could use his text features( latent representation) for clustetring general text. Check this code to see how NaVA could be trained in a toy sample scenerio.
 
-`...`
 
 ###  NaVa attention mechanism
 
 
 ![Figure 1 ](https://github.com/NaVaClustering/Experiments/blob/main/figs/Untitled%20presentation(2).jpg "Title")
+
+In Figure \ref{fig:graphicalModel}  depicts a general idea for the recognition and generative models. A vector x representing a document passes through two attention layers in parallel, then each attention output pass through a deep neural network to obtain the latent representations c and h used by the mixture of Boltzmann machines.
+
+Each attention layer will be responsible for measuring the importance of each word in our vocabulary for generating latent representations of documents h and clusters c. In this work our attention layer \cite{matt} for input x is modelled as:
+
+$x = 1$
+
 In our work, we demonstrate that α can easily change the model accuracy, as follows,
 
 ![Figure 1 ](https://github.com/DiVeWord/DiVeWordEmbedding/blob/master/figs/go.png "Title")
