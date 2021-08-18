@@ -27,6 +27,8 @@ In this repository we present NaVA(Neural attention Variational Autoencoder) a n
 |[Isis Tweets](https://drive.google.com/file/d/0B8yp1gOBCztyN0JaMDVoeXhHWm8/)  | Movie and TV Review | 74337| large| 2 | 
 
 
+<img align="center" src="https://github.com/NaVaClustering/Experiments/blob/main/figs/a.png">
+
 
 ### Input Data
 NaVA receive as input any sequence of strings(sentences), each string of trainning corpus will be map to a vector.
@@ -37,17 +39,9 @@ Each file should have one sentence per line as follows (space delimited): \
 `many disney movies n play dvd player` \
 `...`
 
-### Training NaVa
 
-<img align="center" src="https://github.com/NaVaClustering/Experiments/blob/main/figs/a.png">
+After, for training NaVa you need specify his Hyperparameter and then you could use his text features( latent representation) for clustetring general text. Check this code to see how NaVA could be trained in a toy sample scenerio.
 
-For training NaVa you need specify his Hyperparameter as:\
-
-` python DualPoint.py data.txt wordsVectors.out`\
-wordsVectors.out will be the output, each word in vocabulary represents a line and its coordenates in the embedding, as:
-`...`\
-`house -1.0 2.4 -0.3 ... ` \
-`car 1.5 0.01 -0.2 -1.1 ...`\
 `...`
 
 ###  NaVa attention mechanism
