@@ -66,6 +66,7 @@ Where the key matrix, <a href="https://www.codecogs.com/eqnedit.php?latex=W\in\m
 :-------------------------:|:-------------------------:|
 ![Figure 1 ](https://github.com/NaVaClustering/Experiments/blob/main/figs/newplot(4).png  "Title") |  ![Figure 1 ](https://github.com/NaVaClustering/Experiments/blob/main/figs/newplot(3).png  "Title")
 
+
 ### Reference
 
 <a id="1">[1]</a> 
