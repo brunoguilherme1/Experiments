@@ -53,6 +53,7 @@ After, for training NaVa you need specify his Hyperparameter and then you could 
 <p align="center">
 <img class="center" src="https://github.com/NaVaClustering/Experiments/blob/main/figs/Untitled%20presentation(1).jpg">
 </p>
+
 In Figure \ref{fig:graphicalModel}  depicts a general idea for the recognition and generative models. A vector x representing a document passes through two attention layers in parallel, then each attention output pass through a deep neural network to obtain the latent representations c and h used by the mixture of Boltzmann machines.
 
 Each attention layer will be responsible for measuring the importance of each word in our vocabulary for generating latent representations of documents h and clusters c. In this work our attention layer \cite{matt} for input x is modelled as:
