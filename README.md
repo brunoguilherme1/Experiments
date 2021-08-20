@@ -29,9 +29,9 @@ In this repository we present NaVA(Neural attention Variational Autoencoder) a n
 \
 We propose a novel framework based on MVAE for general text clustering. NaVa(Neural attention Variational Autoencoder) is an unsupervised generative model of text which aims to extract a continuous semantic latent variable for each document. In this way, our model presents a new structure capable of increasing its latent representation using a deep architecture and attention mechanism.
 
-
+<p align="center">
 <img align="center" src="https://github.com/NaVaClustering/Experiments/blob/main/figs/a.png">
-
+</p>
 
 ### Input Data
 NaVA receive as input any sequence of strings(sentences), each string of trainning corpus will be map to a vector.
@@ -50,9 +50,9 @@ After, for training NaVa you need specify his Hyperparameter and then you could 
 
 ###  NaVa attention mechanism
 
-
-![Figure 1 ](https://github.com/NaVaClustering/Experiments/blob/main/figs/Untitled%20presentation(2).jpg "Title")
-
+<p align="center">
+<img class="center" src="https://github.com/NaVaClustering/Experiments/blob/main/figs/Untitled%20presentation(1).jpg">
+</p>
 In Figure \ref{fig:graphicalModel}  depicts a general idea for the recognition and generative models. A vector x representing a document passes through two attention layers in parallel, then each attention output pass through a deep neural network to obtain the latent representations c and h used by the mixture of Boltzmann machines.
 
 Each attention layer will be responsible for measuring the importance of each word in our vocabulary for generating latent representations of documents h and clusters c. In this work our attention layer \cite{matt} for input x is modelled as:
