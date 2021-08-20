@@ -11,7 +11,7 @@ In this repository we present NaVA(Neural attention Variational Autoencoder) a n
 4. scikit-learn==0.24.1
 
 
-### Properties of the datasets used in the experiments. 
+###  Datasets used in the experiments. 
 
 |name | task | train set | test set | classes  | Supervised Learning Papers | Unsupervised Learning Papers|
 |----------	|------------------------------	|-----------:|----------:|:-----------:|----------------------:|:---------------------:|
@@ -27,6 +27,9 @@ In this repository we present NaVA(Neural attention Variational Autoencoder) a n
 |[Isis Tweets](https://drive.google.com/file/d/0B8yp1gOBCztyN0JaMDVoeXhHWm8/)  | Movie and TV Review | 74337| large| 2 | 
 
 
+We propose a novel framework based on MVAE (mixture variational autoencoder) for general text clustering. NaVa(Neural attention Variational Autoencoder) is an unsupervised generative model of text which aims to extract a continuous semantic latent variable for each document. In this way, our model presents a new structure capable of increasing its latent representation using a deep architecture and attention mechanism. NaVA maps each component to a joint distribution of the latent variables and the bag-of-words vector that represents a document. In this work, we use a mixture distribution of Boltzmann Machine to represent our latent variables. Boltzmann Machine is a graphical model popular in NLP for performing well in a number of tasks and for being efficiently learned with variational learning due to its simple structure. NaVa can learn text representations from unlabeled data without requiring any pre-trained data, taking as input the bag-of-word vector representing a document and outputs its latent representation. First we use two encoders with attention layers to compress documents and for doing our mixture(cluster assign), and then we use a softmax decoder to reconstruct the document by generating the words independently.
+
+
 <img align="center" src="https://github.com/NaVaClustering/Experiments/blob/main/figs/a.png">
 
 
@@ -36,7 +39,9 @@ Each file should have one sentence per line as follows (space delimited): \
 `...`\
 `weaknesses minor feel layout remote control show complete file names mp3s`\
 `normal size sorry ignorant way get back 1x quickly` \
+`It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.`\
 `many disney movies n play dvd player` \
+`The standard chunk of Lorem Ipsum used since the 1500s is reproduced below for those interested.`\
 `...`
 
 
