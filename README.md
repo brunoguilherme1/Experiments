@@ -93,7 +93,6 @@ The Silhouette metric is calculated using the average intra-cluster distance and
 
 <p align="center">
 <img align="center" src="https://github.com/NaVaClustering/Experiments/blob/main/figs/Untitled%20presentation(3).jpg">
-  Figure 1
 </p>
 
 
