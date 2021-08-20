@@ -95,7 +95,6 @@ The Silhouette metric is calculated using the average intra-cluster distance and
 <img align="center" src="https://github.com/NaVaClustering/Experiments/blob/main/figs/Untitled%20presentation(3).jpg">
 </p>
 
-
 In our first experiment we will study the impact of varying the amount of clusters([$2-32$]) on each dataset not labeled by \model. With this experiment, we intend to also identify possible gains and losses when the number of clusters is varied, instead of coldly analyzing a numerical value found by a metric. 
 
 With this in mind, we now present figures 3(a), 3(b) and 3(c), in which we can observe the density distribution of the values found by the Silhouette metric when we vary the number of clusters between 2 and 32 (Y axis) for each unlabeled dataset. Thereafter, we can observe that for smaller numbers of clusters ($<6$) the densities of the three figures are concentrated around 0 and 0.5, and as the number of clusters is increased the densities tend to shift to -0.5 and 0.0.
