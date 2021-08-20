@@ -31,7 +31,7 @@ We propose a novel framework based on MVAE for general text clustering. NaVa(Neu
 
 <p align="center">
 <img align="center" src="https://github.com/NaVaClustering/Experiments/blob/main/figs/a.png">
-  (figure 1)
+  Figure 1
 </p>
 
 ### Input Data
