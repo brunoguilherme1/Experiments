@@ -92,18 +92,13 @@ For these experiments we used 3 unsupervised learning metrics: Silhouette, Davie
 The Silhouette metric is calculated using the average intra-cluster distance and the average distance from the nearest cluster for each sample. So, this metric presents values close to 1 when the clusters found are far from each other and the examples of each cluster are close to each other. The Davies Bouldin metric is defined as the measure of average similarity of each cluster with its most similar cluster, where similarity is the ratio between the distances between the clusters. Therefore, more distant and purer clusters will result in a better score. Finally, the Calinski Harabasz, also known as the Variance Ratio Criterion, is a measure defined as the ratio between the dispersion within the cluster and the dispersion between the clusters. 
 
 
-
-<p align="center">
-<img class="center" src="https://github.com/NaVaClustering/Experiments/blob/main/figs/Screenshot%20from%202021-08-20%2013-50-59.png">
-</p>
-
-
 In our first experiment we will study the impact of varying the amount of clusters([$2-32$]) on each dataset not labeled by \model. With this experiment, we intend to also identify possible gains and losses when the number of clusters is varied, instead of coldly analyzing a numerical value found by a metric. 
 
 With this in mind, we now present figures 3(a), 3(b) and 3(c), in which we can observe the density distribution of the values found by the Silhouette metric when we vary the number of clusters between 2 and 32 (Y axis) for each unlabeled dataset. Thereafter, we can observe that for smaller numbers of clusters ($<6$) the densities of the three figures are concentrated around 0 and 0.5, and as the number of clusters is increased the densities tend to shift to -0.5 and 0.0.
 The saturation of the amount of clusters in the space formed by \model~on the Quora dataset and Isis Datset(figures 3(b) e 3(c)) is less smooth than Yelp dataset (figure 3(a)), in which we can observe an abrupt change in the shape of the curves with number of clusters $\geq 4$. Thus, these results demonstrate that the Yelp dataset could support a larger number of clusters, while the Quora and Isis datasets should present the values of 2 or 3 as the optimal number of clusters. 
 
 Thereby, we now present table 3, where we can see the comparison between \model~ and our deep text representation baselines on our 3 unlabeled datasets. On the Quora dataset, all baselines performed better with a number of clusters equal to 2, while the NaVA equals 3, although the number of 2 clusters also presented similar results\footnote{\url{https://github.com/NaVaClustering/Experiments}}, corroborating the results shown in the previous graphs. For the Yelp and Isis datasets all methods presented 2 as the optimal number of clusters.
+
 
 
 ### Reference
