@@ -60,7 +60,7 @@ Each attention layer will be responsible for measuring the importance of each wo
 <img class="center" src="https://github.com/NaVaClustering/Experiments/blob/main/figs/Screenshot%20from%202021-08-20%2013-50-59.png">
 </p>
 
-Where the key matrix, $\mathbf{W} \in \mathbb{R}^{|V|\times D}$ and the query matrix, $\mathbf{Q} \in \mathbb{R}^{|V|\times D}$ with $D$ dimensions of features will be used to gauge the importance of each $x_i$ word. 
+Where the key matrix,<a href="https://www.codecogs.com/eqnedit.php?latex=W\in\mathbf{R}^{|V|\times&space;D}" target="_blank"><img src="https://latex.codecogs.com/gif.latex?W\in\mathbf{R}^{|V|\times&space;D}" title="W\in\mathbf{R}^{|V|\times D}" /></a> and the query matrix, $\mathbf{Q} \in \mathbb{R}^{|V|\times D}$ with $D$ dimensions of features will be used to gauge the importance of each $x_i$ word. 
 ```math
 SE = \frac{\sigma}{\sqrt{n}}
 ```
