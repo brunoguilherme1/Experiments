@@ -91,6 +91,11 @@ For these experiments we used 3 unsupervised learning metrics: Silhouette, Davie
 
 The Silhouette metric is calculated using the average intra-cluster distance and the average distance from the nearest cluster for each sample. So, this metric presents values close to 1 when the clusters found are far from each other and the examples of each cluster are close to each other. The Davies Bouldin metric is defined as the measure of average similarity of each cluster with its most similar cluster, where similarity is the ratio between the distances between the clusters. Therefore, more distant and purer clusters will result in a better score. Finally, the Calinski Harabasz, also known as the Variance Ratio Criterion, is a measure defined as the ratio between the dispersion within the cluster and the dispersion between the clusters. 
 
+<p align="center">
+<img align="center" src="https://github.com/NaVaClustering/Experiments/blob/main/figs/a.png">
+  Figure 1
+</p>
+
 
 In our first experiment we will study the impact of varying the amount of clusters([$2-32$]) on each dataset not labeled by \model. With this experiment, we intend to also identify possible gains and losses when the number of clusters is varied, instead of coldly analyzing a numerical value found by a metric. 
 
