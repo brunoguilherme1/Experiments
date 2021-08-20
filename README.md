@@ -26,7 +26,7 @@ In this repository we present NaVA(Neural attention Variational Autoencoder) a n
 |[Yelp Dataset](https://drive.google.com/file/d/0B8yp1gOBCztyN0JaMDVoeXhHWm8/)  | Movie and TV Review | 74337| large| 2 | 
 |[Isis Tweets](https://drive.google.com/file/d/0B8yp1gOBCztyN0JaMDVoeXhHWm8/)  | Movie and TV Review | 74337| large| 2 | 
 
-
+\
 We propose a novel framework based on MVAE for general text clustering. NaVa(Neural attention Variational Autoencoder) is an unsupervised generative model of text which aims to extract a continuous semantic latent variable for each document. In this way, our model presents a new structure capable of increasing its latent representation using a deep architecture and attention mechanism.
 
 
