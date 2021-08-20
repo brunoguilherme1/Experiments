@@ -82,6 +82,9 @@ Words Most important | TSNE Tweets Dataset|
 
 We propose a novel framework based on MVAE for general text clustering. NaVa(Neural attention Variational Autoencoder) is an unsupervised generative model of text which aims to extract a continuous semantic latent variable for each document. In this way, our model presents a new structure capable of increasing its latent representation using a deep architecture and attention mechanism. We propose a novel framework based on MVAE for general text clustering. NaVa(Neural attention Variational Autoencoder) is an unsupervised generative model of text which aims to extract a continuous semantic latent variable for each document. In this way, our model presents a new structure capable of increasing its latent representation using a deep architecture and attention mechanism.
 
+
+###  Unsupervised Clustering, without Ground Truth
+
 ### Reference
 
 <a id="1">[1]</a> 
