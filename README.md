@@ -61,7 +61,9 @@ Each attention layer will be responsible for measuring the importance of each wo
 </p>
 
 Where the key matrix, $\mathbf{W} \in \mathbb{R}^{|V|\times D}$ and the query matrix, $\mathbf{Q} \in \mathbb{R}^{|V|\times D}$ with $D$ dimensions of features will be used to gauge the importance of each $x_i$ word. 
-
+```math
+SE = \frac{\sigma}{\sqrt{n}}
+```
 ### Reference
 
 <a id="1">[1]</a> 
