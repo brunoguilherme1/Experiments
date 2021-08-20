@@ -106,13 +106,6 @@ Thereby, we now present table 3, where we can see the comparison between \model~
 
 ### Reference
 
-<a id="1">[1]</a> 
-Dijkstra, E. W. (1968). 
-Go to statement considered harmful. 
-Communications of the ACM, 11(3), 147-148.
-
-
-
 Please make sure to cite the papers when its use for represents document for clustering or classification.
 Please cite the following paper if you use this implementation:\
 `@InProceedings{ Submitted to WSDM'22,`\
@@ -120,3 +113,12 @@ Please cite the following paper if you use this implementation:\
   `title     = {Neural attention Variational Autoencoder for Text Clustering},`\
   `booktitle = {WSDM'21},`\
   `year      = {2021} }`
+
+
+<a id="1">[1]</a> 
+Dijkstra, E. W. (1968). 
+Go to statement considered harmful. 
+Communications of the ACM, 11(3), 147-148.
+
+
+
