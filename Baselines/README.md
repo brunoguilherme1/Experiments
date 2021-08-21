@@ -1,5 +1,5 @@
 # Transformed-Based Clustering
-Sentence-Transformers can be used in different ways to perform clustering of small or large set of sentences. This repository we evaluate 5 baselines based on transformed deep learning.
+Sentence-Transformers can be used in different ways to perform clustering of large set of sentences. This repository we evaluate 5 baselines based on transformed deep learning.
 * Baselines
     * Mass(paraphrase-mpnet-base-v2)
     * Multi Language BERT(distiluse-base-multilingual-cased-v2)
