@@ -1,11 +1,11 @@
 # Transformed-Based Clustering
 Sentence-Transformers can be used in different ways to perform clustering of large set of sentences. In this repository, we evaluate 5 baselines based on transformed deep learning.
 * Baselines
-    * Mass(paraphrase-mpnet-base-v2)
-    * Multi Language BERT(distiluse-base-multilingual-cased-v2)
-    * XLM-RoBERTa(xlm-r-100langs-bert-base-nli-stsb-mean-tokens)
-    * ALBERT (paraphrase-albert-base-v2)
-    * BERT(bert-large-nli-stsb-mean-tokens)
+    * Mass(paraphrase-mpnet-base-v2)
+    * Multi Language BERT(distiluse-base-multilingual-cased-v2)
+    * XLM-RoBERTa(xlm-r-100langs-bert-base-nli-stsb-mean-tokens)
+    * ALBERT (paraphrase-albert-base-v2)
+    * BERT(bert-large-nli-stsb-mean-tokens)
 
 
 ## k-Means
