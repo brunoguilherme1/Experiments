@@ -23,7 +23,5 @@ The optimal choice of clusters for each baseline was made by analyzing the SI, D
 
 Words Most important | TSNE Tweets Dataset|TSNE Tweets Dataset
 :-------------------------:|:-------------------------:|:-------------------------:|
-![Figure 1 ](https://github.com/NaVaClustering/Experiments/blob/main/figs/go2.png  "Title") 
-|![Figure 1 ](https://github.com/NaVaClustering/Experiments/blob/main/figs/cluster_tw.png  "Title")
-|![Figure 1 ](https://github.com/NaVaClustering/Experiments/blob/main/figs/cluster_tw.png  "Title")
+![Figure 1 ](https://github.com/NaVaClustering/Experiments/blob/main/figs/go2.png  "Title") |![Figure 1 ](https://github.com/NaVaClustering/Experiments/blob/main/figs/cluster_tw.png  "Title")|![Figure 1 ](https://github.com/NaVaClustering/Experiments/blob/main/figs/cluster_tw.png  "Title")
 
