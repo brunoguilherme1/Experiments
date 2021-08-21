@@ -18,3 +18,6 @@ Sentence-Transformers can be used in different ways to perform clustering of lar
 A [Gaussian mixture](https://scikit-learn.org/stable/modules/generated/sklearn.mixture.GaussianMixture.html#sklearn.mixture.GaussianMixture) model is a probabilistic model that assumes all the data points are generated from a mixture of a finite number of Gaussian distributions with unknown parameters. One can think of mixture models as generalizing k-means clustering to incorporate information about the covariance structure of the data as well as the centers of the latent Gaussians.
 
 ## Optimal Number of Clusters (non Ground Truth)
+The optimal choice of clusters for each baseline was made by analyzing the SI, DB and CA  values of the datasets that do not have labels, as shown in the figures below, which show that all our baselines have a value of 2 as the optimal number of clusters. 
+
+
