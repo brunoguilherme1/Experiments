@@ -14,7 +14,7 @@ In this repository we present NaVA(Neural attention Variational Autoencoder) a n
 ###  Datasets used in the experiments. 
 
 |name | task | train set | test set | classes  |
-|----------	|------------------------------	|-----------:|----------:|:-----------:|----------------------:|:---------------------:|
+|----------	|------------------------------	|-----------:|----------:|:-----------:|
 |[20NewsGroup](https://github.com/davidsbatista/Aspect-Based-Sentiment-Analysis/tree/master/datasets/CR)  | User review polarity | 5176 | small | 2 |
 |[IMDB](https://github.com/zeerakw/hatespeech)  | Hate speech detect| 23739 | large |3  |
 |[TREC6](https://www.cs.cornell.edu/people/pabo/movie-review-data/rt-polaritydata.tar.gz)| Sentece polarity | 18179| large |  2 |
