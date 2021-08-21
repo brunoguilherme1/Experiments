@@ -21,4 +21,9 @@ A [Gaussian mixture](https://scikit-learn.org/stable/modules/generated/sklearn.m
 The optimal choice of clusters for each baseline was made by analyzing the SI, DB and CA  values of the datasets that do not have labels, as shown in the figures below, which show that all our baselines have a value of 2 as the optimal number of clusters. 
 
 
+Words Most important | TSNE Tweets Dataset|TSNE Tweets Dataset
+:-------------------------:|:-------------------------:|:-------------------------:|
+![Figure 1 ](https://github.com/NaVaClustering/Experiments/blob/main/figs/go2.png  "Title") 
+|![Figure 1 ](https://github.com/NaVaClustering/Experiments/blob/main/figs/cluster_tw.png  "Title")
+|![Figure 1 ](https://github.com/NaVaClustering/Experiments/blob/main/figs/cluster_tw.png  "Title")
 
