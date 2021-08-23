@@ -63,7 +63,7 @@ Each attention layer will be responsible for measuring the importance of each wo
 Where the key matrix, <a href="https://www.codecogs.com/eqnedit.php?latex=W\in\mathbf{R}^{|V|\times&space;D}" target="_blank"><img src="https://latex.codecogs.com/gif.latex?W\in\mathbf{R}^{|V|\times&space;D}" title="W\in\mathbf{R}^{|V|\times D}" /></a> and the query matrix, <a href="https://www.codecogs.com/eqnedit.php?latex=Q\in\mathbf{R}^{|V|\times&space;D}" target="_blank"><img src="https://latex.codecogs.com/gif.latex?Q\in\mathbf{R}^{|V|\times&space;D}" title="Q\in\mathbf{R}^{|V|\times D}" /></a> with <a href="https://www.codecogs.com/eqnedit.php?latex=D" target="_blank"><img src="https://latex.codecogs.com/gif.latex?D" title="D" /></a> dimensions of features will be used to gauge the importance of each <a href="https://www.codecogs.com/eqnedit.php?latex=x_i" target="_blank"><img src="https://latex.codecogs.com/gif.latex?x_i" title="x_i" /></a> word. Our attention function plays a key role in filtering out the most important words given input. As we work with bag-of-words that can contain high dimensions, our attention layer helps to reduce our high dimensionality by giving weights to each word in the vector. After that, we use multiple layers of neural networks to assess the latent values h and c, which will be used as latent representation of documents and cluster assign.
 
 \
-We propose a novel framework based on MVAE for general text clustering. NaVa(Neural attention Variational Autoencoder) is an unsupervised generative model of text which aims to extract a continuous semantic latent variable for each document. In this way, our model presents a new structure capable of increasing its latent representation using a deep architecture and attention mechanism.
+In our experiments, we performed some analysis to measure the impact of our attention engine on our models. Thus, in addition to noting a gain in unsupervised metrics, the space formed by the NaVA features presents a strong correlation with the groups found.Thus, we present in the figures below the visualization of the space formed in the 20newsGroup dataset using the TSNE dimensionality reduction technique. 
 
 20News without Attention| 20News with Attention|
 :-------------------------:|:-------------------------:|
@@ -71,9 +71,7 @@ We propose a novel framework based on MVAE for general text clustering. NaVa(Neu
 
 
 \
-We propose a novel framework based on MVAE for general text clustering. NaVa(Neural attention Variational Autoencoder) is an unsupervised generative model of text which aims to extract a continuous semantic latent variable for each document. In this way, our model presents a new structure capable of increasing its latent representation using a deep architecture and attention mechanism. We propose a novel framework based on MVAE for general text clustering. NaVa(Neural attention Variational Autoencoder) is an unsupervised generative model of text which aims to extract a continuous semantic latent variable for each document. In this way, our model presents a new structure capable of increasing its latent representation using a deep architecture and attention mechanism.
-
-
+In the figures above we have trained the MVAE-BM, a simplified version of NaVA, and in the figure on the right, the NaVA. So from the figures we can see that NaVA has a space that can better distinguish the clusters within the 20newsGroup dataset. Our attention function here plays a fundamental role in achieving better results than the MVAE-BM. 
 
 Words Most important | TSNE Tweets Dataset|
 :-------------------------:|:-------------------------:|
