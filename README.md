@@ -65,7 +65,7 @@ Where the key matrix, <a href="https://www.codecogs.com/eqnedit.php?latex=W\in\m
 \
 In our experiments, we performed some analysis to measure the impact of our attention engine on our models. Thus, in addition to noting a gain in unsupervised metrics, the space formed by the NaVA features presents a strong correlation with the groups found.Thus, we present in the figures below the visualization of the space formed in the 20newsGroup dataset using the TSNE dimensionality reduction technique. 
 
-20News without Attention| 20News with Attention|
+20News MVAE-BM| 20News NaVA|
 :-------------------------:|:-------------------------:|
 ![Figure 1 ](https://github.com/NaVaClustering/Experiments/blob/main/figs/newplot(4).png  "Title") |  ![Figure 1 ](https://github.com/NaVaClustering/Experiments/blob/main/figs/newplot(3).png  "Title")
 
