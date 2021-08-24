@@ -80,17 +80,13 @@ Words Most important | TSNE Tweets Dataset|
 
 ###  Unsupervised Clustering, without Ground Truth
 
-In this section, we will present text clustering experiments on datasets where there is no pre-defined manual labeling. Therefore, in these experiments, we will evaluate the ability of \model~ and our baselines to find consistent clusters by evaluating unsupervised learning metrics where the labels are not known.
-
-For these experiments we used 3 unsupervised learning metrics: Silhouette, Davies Bouldin and Calinski Harabasz.
-
-The Silhouette metric is calculated using the average intra-cluster distance and the average distance from the nearest cluster for each sample. So, this metric presents values close to 1 when the clusters found are far from each other and the examples of each cluster are close to each other. The Davies Bouldin metric is defined as the measure of average similarity of each cluster with its most similar cluster, where similarity is the ratio between the distances between the clusters. Therefore, more distant and purer clusters will result in a better score. Finally, the Calinski Harabasz, also known as the Variance Ratio Criterion, is a measure defined as the ratio between the dispersion within the cluster and the dispersion between the clusters. 
+We will present text clustering experiments on datasets where there is no pre-defined manual labeling. Therefore, in our experiments, we will evaluate the ability of NaVa and our baselines to find consistent clusters by evaluating unsupervised learning metrics where the labels are not known. For these experiments we used 3 unsupervised learning metrics: Silhouette, Davies Bouldin and Calinski Harabasz. In our first experiment we will study the impact of varying the amount of clusters([$2-32$]) on each dataset not labeled by NaVA. With this experiment, we intend to also identify possible gains and losses when the number of clusters is varied, instead of coldly analyzing a numerical value found by a metric. 
 
 <p align="center">
 <img align="center" src="https://github.com/NaVaClustering/Experiments/blob/main/figs/Untitled%20presentation(4).jpg">
 </p>
 
-In our first experiment we will study the impact of varying the amount of clusters([$2-32$]) on each dataset not labeled by \model. With this experiment, we intend to also identify possible gains and losses when the number of clusters is varied, instead of coldly analyzing a numerical value found by a metric. Thereby, we now present table 3, where we can see the comparison between \model~ and our deep text representation baselines on our 3 unlabeled datasets. On the Quora dataset, all baselines performed better with a number of clusters equal to 2, while the NaVA equals 3, although the number of 2 clusters also presented similar results, corroborating the results shown in the previous graphs. For the Yelp and Isis datasets all methods presented 2 as the optimal number of clusters.
+In table 3, where we can see the comparison between NaVA and our deep text representation baselines on our 3 unlabeled datasets. On the Quora dataset, all baselines performed better with a number of clusters equal to 2, while the NaVA equals 3, although the number of 2 clusters also presented similar [results]((https://drive.google.com/file/d/0B8yp1gOBCztyN0JaMDVoeXhHWm8/)), corroborating the results shown in the previous graphs. For the Yelp and Isis datasets all methods presented 2 as the optimal number of clusters. So, comparing the values found for each metric in table 3, we can observe that the NaVA presented the best results on the three evaluated datasets, being surpassed only by ALBERT in CA metric on Yelp dataset.
 
 
 
