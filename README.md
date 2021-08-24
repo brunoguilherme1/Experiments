@@ -86,7 +86,7 @@ We will present text clustering experiments on datasets where there is no pre-de
 <img align="center" src="https://github.com/NaVaClustering/Experiments/blob/main/figs/Untitled%20presentation(4).jpg">
 </p>
 
-In table 3, where we can see the comparison between NaVA and our deep text representation baselines on our 3 unlabeled datasets. On the Quora dataset, all baselines performed better with a number of clusters equal to 2, while the NaVA equals 3, although the number of 2 clusters also presented similar [results]((https://drive.google.com/file/d/0B8yp1gOBCztyN0JaMDVoeXhHWm8/)), corroborating the results shown in the previous graphs. For the Yelp and Isis datasets all methods presented 2 as the optimal number of clusters. So, comparing the values found for each metric in table 3, we can observe that the NaVA presented the best results on the three evaluated datasets, being surpassed only by ALBERT in CA metric on Yelp dataset.
+In table 3, where we can see the comparison between NaVA and our deep text representation baselines on our 3 unlabeled datasets. On the Quora dataset, all baselines performed better with a number of clusters equal to 2, while the NaVA equals 3, although the number of 2 clusters also presented similar [results](https://drive.google.com/file/d/0B8yp1gOBCztyN0JaMDVoeXhHWm8/), corroborating the results shown in the previous graphs. For the Yelp and Isis datasets all methods presented 2 as the optimal number of clusters. So, comparing the values found for each metric in table 3, we can observe that the NaVA presented the best results on the three evaluated datasets, being surpassed only by ALBERT in CA metric on Yelp dataset.
 
 
 
