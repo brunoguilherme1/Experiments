@@ -92,13 +92,13 @@ In table 3, where we can see the comparison between NaVA and our deep text repre
 
 ### Reference
 
-Please make sure to cite the papers when its use for represents document for clustering or classification.
+Please make sure to cite the papers when its use for represents document for clustering.
 Please cite the following paper if you use this implementation:\
-`@InProceedings{ Submitted to WSDM'22,`\
+`@InProceedings{Submitted to WSDM'22,`\
   `author    = {authors are removed for double blind review},`\
   `title     = {Neural attention Variational Autoencoder for Text Clustering},`\
-  `booktitle = {WSDM'21},`\
-  `year      = {2021} }`
+  `booktitle = {WSDM'22},`\
+  `year      = {2022} }`
 
 
 <a id="1">[1]</a> 
