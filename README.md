@@ -71,14 +71,11 @@ In our experiments, we performed some analysis to measure the impact of our atte
 
 
 \
-In the figures above we have trained the MVAE-BM, a simplified version of NaVA, and in the figure on the right, the NaVA. So from the figures we can see that NaVA has a space that can better distinguish the clusters within the 20newsGroup dataset. Our attention function here plays a fundamental role in achieving better results than the MVAE-BM. 
+In addition, NaVA allows the most important words to be highlighted using the energy function within our model. So, now we present the figures below, where within the Tweets dataset we present the most important words of each example just like the TSNE visualization.
 
 Words Most important | TSNE Tweets Dataset|
 :-------------------------:|:-------------------------:|
 ![Figure 1 ](https://github.com/NaVaClustering/Experiments/blob/main/figs/go2.png  "Title") |  ![Figure 1 ](https://github.com/NaVaClustering/Experiments/blob/main/figs/cluster_tw.png  "Title")
-
-
-We propose a novel framework based on MVAE for general text clustering. NaVa(Neural attention Variational Autoencoder) is an unsupervised generative model of text which aims to extract a continuous semantic latent variable for each document. In this way, our model presents a new structure capable of increasing its latent representation using a deep architecture and attention mechanism. We propose a novel framework based on MVAE for general text clustering. NaVa(Neural attention Variational Autoencoder) is an unsupervised generative model of text which aims to extract a continuous semantic latent variable for each document. In this way, our model presents a new structure capable of increasing its latent representation using a deep architecture and attention mechanism.
 
 
 ###  Unsupervised Clustering, without Ground Truth
