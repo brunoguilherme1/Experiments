@@ -80,7 +80,7 @@ Words Most important | TSNE Tweets Dataset|
 
 ###  Unsupervised Clustering, without Ground Truth
 
-We will present text clustering experiments on datasets where there is no pre-defined manual labeling. Therefore, in our experiments, we will evaluate the ability of NaVa and our baselines to find consistent clusters by evaluating unsupervised learning metrics where the labels are not known. For these experiments we used 3 unsupervised learning metrics: Silhouette, Davies Bouldin and Calinski Harabasz. In our first experiment we will study the impact of varying the amount of clusters([$2-32$]) on each dataset not labeled by NaVA. With this experiment, we intend to also identify possible gains and losses when the number of clusters is varied, instead of coldly analyzing a numerical value found by a metric. 
+We will present text clustering experiments on datasets where there is no pre-defined manual labeling. Therefore, in our experiments, we will evaluate the ability of NaVa and our baselines to find consistent clusters by evaluating unsupervised learning metrics where the labels are not known. For these experiments we used 3 unsupervised learning metrics: Silhouette, Davies Bouldin and Calinski Harabasz. In our first experiment we will study the impact of varying the amount of clusters(2-32) on each dataset not labeled by NaVA. With this experiment, we intend to also identify possible gains and losses when the number of clusters is varied, instead of coldly analyzing a numerical value found by a metric. 
 
 <p align="center">
 <img align="center" src="https://github.com/NaVaClustering/Experiments/blob/main/figs/table3.png">
