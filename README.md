@@ -83,7 +83,7 @@ Words Most important | TSNE Tweets Dataset|
 We will present text clustering experiments on datasets where there is no pre-defined manual labeling. Therefore, in our experiments, we will evaluate the ability of NaVa and our baselines to find consistent clusters by evaluating unsupervised learning metrics where the labels are not known. For these experiments we used 3 unsupervised learning metrics: Silhouette, Davies Bouldin and Calinski Harabasz. In our first experiment we will study the impact of varying the amount of clusters([$2-32$]) on each dataset not labeled by NaVA. With this experiment, we intend to also identify possible gains and losses when the number of clusters is varied, instead of coldly analyzing a numerical value found by a metric. 
 
 <p align="center">
-<img align="center" src="https://github.com/NaVaClustering/Experiments/blob/main/figs/Untitled%20presentation(4).jpg">
+<img align="center" src="https://github.com/NaVaClustering/Experiments/blob/main/figs/table3.png">
 </p>
 
 In table 3, where we can see the comparison between NaVA and our deep text representation baselines on our 3 unlabeled datasets. On the Quora dataset, all baselines performed better with a number of clusters equal to 2, while the NaVA equals 3, although the number of 2 clusters also presented similar [results](https://drive.google.com/file/d/0B8yp1gOBCztyN0JaMDVoeXhHWm8/), corroborating the results shown in the previous graphs. For the Yelp and Isis datasets all methods presented 2 as the optimal number of clusters. So, comparing the values found for each metric in table 3, we can observe that the NaVA presented the best results on the three evaluated datasets, being surpassed only by ALBERT in CA metric on Yelp dataset.
