@@ -15,16 +15,16 @@ In this repository we present NaVA(Neural attention Variational Autoencoder) a n
 
 |name | task | train set | test set | classes  |
 |----------	|------------------------------	|-----------:|----------:|:-----------:|
-|[20NewsGroup](https://github.com/davidsbatista/Aspect-Based-Sentiment-Analysis/tree/master/datasets/CR)  | User review polarity | 5176 | small | 2 |
-|[IMDB](https://github.com/zeerakw/hatespeech)  | Hate speech detect| 23739 | large |3  |
-|[TREC6](https://www.cs.cornell.edu/people/pabo/movie-review-data/rt-polaritydata.tar.gz)| Sentece polarity | 18179| large |  2 |
-|[Subjectivity](https://github.com/hallr/DAT_SF_19/blob/master/data/yelp_labelled.txt)  | Movie and TV Review | 1000 | small|  2|
-|[Biomedical](https://github.com/hallr/DAT_SF_19/blob/master/data/yelp_labelled.txt)  | Food review polarity | 1000| small| 2|
-|[SearchSnippets](http://www.cs.cornell.edu/people/pabo/movie-review-data/rotten_imdb.tar.gz) | Subjectivity and objectivity | 18179 | large | 2 |
-|[Stackoverflow](https://github.com/hallr/DAT_SF_19/blob/master/data/yelp_labelled.txt)  | User product review  | 1000| small | 2  |
-|[Quora DataSet](http://cogcomp.org/Data/QA/QC/)  | Question Answering  | 16504 | small | 6  |
-|[Yelp Dataset](https://drive.google.com/file/d/0B8yp1gOBCztyN0JaMDVoeXhHWm8/)  | Movie and TV Review | 74337| large| 2 | 
-|[Isis Tweets](https://drive.google.com/file/d/0B8yp1gOBCztyN0JaMDVoeXhHWm8/)  | Movie and TV Review | 74337| large| 2 | 
+|[20NewsGroup](https://github.com/davidsbatista/Aspect-Based-Sentiment-Analysis/tree/master/datasets/CR)  | User review polarity |11314 | 7531 | 20 |
+|[IMDB](https://github.com/zeerakw/hatespeech)  | Sentiment Analysis|35000 | 15000 |2  |
+|[TREC6](https://www.cs.cornell.edu/people/pabo/movie-review-data/rt-polaritydata.tar.gz)| Question Answering  | 3816| 1636 |  6 |
+|[Subjectivity](https://github.com/hallr/DAT_SF_19/blob/master/data/yelp_labelled.txt)  | Movie and TV Review | 9756 |  3323|  2|
+|[Biomedical](https://github.com/hallr/DAT_SF_19/blob/master/data/yelp_labelled.txt)  | biomedical |20000| -| 20|
+|[SearchSnippets](http://www.cs.cornell.edu/people/pabo/movie-review-data/rotten_imdb.tar.gz) | - | 19245 | - | 8 |
+|[Stackoverflow](https://github.com/hallr/DAT_SF_19/blob/master/data/yelp_labelled.txt)  | - | 18543| - | 2  |
+|[Quora DataSet](http://cogcomp.org/Data/QA/QC/)  | Question Answering  | 19500 |5512 | -  |
+|[Yelp Dataset](https://drive.google.com/file/d/0B8yp1gOBCztyN0JaMDVoeXhHWm8/) |- | 25000 | 10000| -| 
+|[Isis Tweets](https://drive.google.com/file/d/0B8yp1gOBCztyN0JaMDVoeXhHWm8/)  | Movie and TV Review |15000| 6000| - | 
 
 \
 We propose a novel framework based on MVAE for general text clustering. NaVa(Neural attention Variational Autoencoder) is an unsupervised generative model of text which aims to extract a continuous semantic latent variable for each document. In this way, our model presents a new structure capable of increasing its latent representation using a deep architecture and attention mechanism.
