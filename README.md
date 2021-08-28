@@ -46,7 +46,7 @@ Each file should have one sentence per line as follows (space delimited): \
 `...`
 
 
-After, for training NaVa you need specify his Hyperparameter and then you could use his text features( latent representation) for clustetring general text. Check this code to see how NaVA could be trained in a toy sample scenario.
+After, for training NaVa you need specify his Hyperparameter and then you could use his text features( latent representation) for clustetring general text. Check this [code](https://github.com/NaVaClustering/Experiments/blob/main/NaVA/NaVA_Example.ipynb) to see how NaVA could be trained in a toy sample scenario.
 
 
 ###  NaVa attention mechanism
