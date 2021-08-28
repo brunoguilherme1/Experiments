@@ -1,7 +1,7 @@
 # Text Clustering without Ground Truth
 In this section, we will present text clustering experiments on datasets where there is no pre-defined manual labeling. Therefore, in these experiments, we will evaluate the ability of NaVA to find consistent clusters by evaluating unsupervised learning metrics where the labels are not known.
 
-In our first experiment we will study the impact of varying the amount of clusters([$2-32$]) on each dataset not labeled by \model. With this experiment, we intend to also identify possible gains and losses when the number of clusters is varied, instead of coldly analyzing a numerical value found by a metric.
+In our first experiment we will study the impact of varying the amount of clusters([2-32]) on each dataset not labeled by \model. With this experiment, we intend to also identify possible gains and losses when the number of clusters is varied, instead of coldly analyzing a numerical value found by a metric.
 Yelp| Isis |Quora
 :-------------------------:|:-------------------------:|:-------------------------:|
 ![Figure 1 ](https://github.com/NaVaClustering/Experiments/blob/main/figs/pink_yelp(1).png  "Title") |![Figure 1 ](https://github.com/NaVaClustering/Experiments/blob/main/figs/quora(1).png  "Title")|![Figure 1 ](https://github.com/NaVaClustering/Experiments/blob/main/figs/tweets.png  "Title")
