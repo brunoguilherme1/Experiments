@@ -73,7 +73,7 @@ Without Attention| With Attention|
 \
 In addition, NaVA allows the most important words to be highlighted using the energy function within our model. So, now we present the figures below, where within the Tweets dataset we present the most important words of each example just like the TSNE visualization.
 
-Words Most important | TSNE Tweets Dataset|
+Words Most important | TSNE ISIS Dataset|
 :-------------------------:|:-------------------------:|
 ![Figure 1 ](https://github.com/NaVaClustering/Experiments/blob/main/figs/go2.png  "Title") |  ![Figure 1 ](https://github.com/NaVaClustering/Experiments/blob/main/figs/cluster_tw.png  "Title")
 
