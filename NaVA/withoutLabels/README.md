@@ -12,4 +12,4 @@ The saturation of the amount of clusters in the space formed by NaVA on the Quor
 
 Yelp| Isis |Quora
 :-------------------------:|:-------------------------:|:-------------------------:|
-![Figure 1 ](https://github.com/NaVaClustering/Experiments/blob/main/figs/quora.png  "Title") |![Figure 1 ](https://github.com/NaVaClustering/Experiments/blob/main/figs/isis.png  "Title")|![Figure 1 ](https://github.com/NaVaClustering/Experiments/blob/main/figs/yelp-box.png  "Title")
+![Figure 1 ](https://github.com/NaVaClustering/Experiments/blob/main/figs/quora.png  "Title") |![Figure 1 ](https://github.com/NaVaClustering/Experiments/blob/main/figs/isis.png  "Title")|![Figure 1 ](https://github.com/NaVaClustering/Experiments/blob/main/figs/yelp_box.png  "Title")
