@@ -15,16 +15,16 @@ In this repository we present NaVA(Neural attention Variational Autoencoder) a n
 
 |name | task | train set | test set | classes  |
 |----------	|------------------------------	|-----------:|----------:|:-----------:|
-|[20NewsGroup](https://github.com/davidsbatista/Aspect-Based-Sentiment-Analysis/tree/master/datasets/CR)  | User review polarity |11314 | 7531 | 20 |
-|[IMDB](https://github.com/zeerakw/hatespeech)  | Sentiment Analysis|35000 | 15000 |2  |
+|[20NewsGroup]()  | User review polarity |11314 | 7531 | 20 |
+|[IMDB]()  | Sentiment Analysis|35000 | 15000 |2  |
 |[TREC6](https://www.cs.cornell.edu/people/pabo/movie-review-data/rt-polaritydata.tar.gz)| Question Answering  | 3816| 1636 |  6 |
-|[Subjectivity](https://github.com/hallr/DAT_SF_19/blob/master/data/yelp_labelled.txt)  | Movie and TV Review | 9756 |  3323|  2|
-|[Biomedical](https://github.com/hallr/DAT_SF_19/blob/master/data/yelp_labelled.txt)  | biomedical text clustering |20000| -| 20|
-|[SearchSnippets](http://www.cs.cornell.edu/people/pabo/movie-review-data/rotten_imdb.tar.gz) | short text clustering | 19245 | - | 8 |
-|[Stackoverflow](https://github.com/hallr/DAT_SF_19/blob/master/data/yelp_labelled.txt)  | short text clustering | 18543| - | 20  |
+|[Subjectivity]()  | Movie and TV Review | 9756 |  3323|  2|
+|[Biomedical]()  | biomedical text clustering |20000| -| 20|
+|[SearchSnippets]() | short text clustering | 19245 | - | 8 |
+|[Stackoverflow])  | short text clustering | 18543| - | 20  |
 |[Quora DataSet](http://cogcomp.org/Data/QA/QC/)  | Question Answering  | 19500 |5512 | -  |
-|[Yelp Dataset](https://drive.google.com/file/d/0B8yp1gOBCztyN0JaMDVoeXhHWm8/) |user review| 25000 | 10000| -| 
-|[Isis Tweets](https://drive.google.com/file/d/0B8yp1gOBCztyN0JaMDVoeXhHWm8/)  | Movie and TV Review |15000| 6000| - | 
+|[Yelp Dataset]() |user review| 25000 | 10000| -| 
+|[Isis Tweets]()  | Movie and TV Review |15000| 6000| - | 
 
 \
 We propose a novel framework based on MVAE for general text clustering. NaVa(Neural attention Variational Autoencoder) is an unsupervised generative model of text which aims to extract a continuous semantic latent variable for each document. In this way, our model presents a new structure capable of increasing its latent representation using a deep architecture and attention mechanism.
