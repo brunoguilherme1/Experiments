@@ -9,7 +9,7 @@ Yelp| Isis |Quora
 With this in mind, we now present figures above, in which we can observe the density distribution of the values found by the Silhouette metric when we vary the number of clusters between 2 and 32 (Y axis) for each unlabeled dataset. Thereafter, we can observe that for smaller numbers of clusters (<6) the densities of the three figures are concentrated around 0 and 0.5, and as the number of clusters is increased the densities tend to shift to -0.5 and 0.0.
 The saturation of the amount of clusters in the space formed by NaVA on the Quora dataset and Isis Datset is less smooth than Yelp dataset, in which we can observe an abrupt change in the shape of the curves with number of clusters < 4. Thus, these results demonstrate that the Yelp dataset could support a larger number of clusters, while the Quora and Isis datasets should present the values of 2 or 3 as the optimal number of clusters. 
 
-
+ 
 Yelp| Isis |Quora
 :-------------------------:|:-------------------------:|:-------------------------:|
 ![Figure 1 ](https://github.com/NaVaClustering/Experiments/blob/main/figs/yelp_box.png  "Title") |![Figure 1 ](https://github.com/NaVaClustering/Experiments/blob/main/figs/isis.png  "Title")|![Figure 1 ](https://github.com/NaVaClustering/Experiments/blob/main/figs/quora.png  "Title")
