@@ -1,6 +1,6 @@
 # Transformed-Based Clustering
 Sentence-Transformers can be used in different ways to perform clustering of large set of sentences. In this repository, we evaluate 5 baselines based on transformed deep learning.
-(<b>The [sbert](https://www.sbert.net/docs/pretrained_models.html) did a new raking of embeddings, in this way, all-mpnet-base-v2 is the new best model of all embeddings</b>)
+(<b>The [sbert](https://www.sbert.net/docs/pretrained_models.html) did a new raking of embeddings, in this way, all-mpnet-base-v2 is the new best model of all embeddings, before 08/13/2020(WSDM deadline) paraphrase-mpnet-base-v2 was the best model of all embeddings</b>)
 * Baselines
     * Mass(paraphrase-mpnet-base-v2)
     * Multi Language BERT(distiluse-base-multilingual-cased-v2)
