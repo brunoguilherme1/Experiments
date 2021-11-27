@@ -97,5 +97,5 @@ Please cite the following paper if you use this implementation:\
 `@InProceedings{Submitted to WSDM'22,`\
   `author    = {authors are removed for double blind review},`\
   `title     = {Neural attention Variational Autoencoder for Text Clustering},`\
-  `booktitle = {WSDM'22},`\
+  `booktitle = {NAACL'22},`\
   `year      = {2022} }`
