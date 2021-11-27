@@ -1,4 +1,4 @@
-#                          NaVA Clustering
+#                          MVAE-BM Clustering
 authors are removed for double blind review 
 ***
 
